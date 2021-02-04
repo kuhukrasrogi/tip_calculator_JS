@@ -1,0 +1,90 @@
+body {
+  font-family: Roboto;
+  background: grey;
+}
+#container {
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: yellow;
+}
+h1 {
+  background: green;
+  color: white;
+  padding: 10px 90px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+p {
+  padding-left: 20px;
+}
+form input[type="text"] {
+  width:80px;
+}
+input {
+  padding-left: 70px;
+}
+#billamt {
+  font-size: 14px;
+  color: red;
+  background-color: #f7f7f7;
+  width: 60%;
+}
+#billamt:focus {
+  background: #fff;
+  border: 3px solid black;
+}
+#peopleamt {
+  width: 60%;  
+  margin-left: 20px;
+  color: #red;
+  background-color: white;
+  font-size: 20px;
+}
+.dollarSign {
+  display: inline;
+}
+#serviceequal {
+  padding: 12px 12px 20px 20px;
+  margin-left: 18px;
+  font-size: 25px;
+}
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: black;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+}
+button:hover {
+  background: red;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+#totaltip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+#totaltip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+#totaltip sup {
+  font-size: 20px;
+  top: -18px;
+}
+#totaltip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
